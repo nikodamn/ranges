@@ -60,7 +60,7 @@ public class Main {
 
         System.out.println("Great! You've selected number: " + n);
 
-        generateRanges(n,0, max);
+        generateRanges(n, 0, max);
 
         while(true) {
             enclosedNumber = ThreadLocalRandom.current().nextInt(0, maxN + 1);
